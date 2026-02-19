@@ -7,7 +7,7 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<NoWarn>1591</NoWarn>
 		<PackageId>NewtonRootFinder</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.2</Version>
 		<Authors>Kuba 'Kubaleek' Król</Authors>
 		<Description>Biblioteka do znajdowania pierwiastków rzeczywistych wielomianów metodą Newtona z deflacją.</Description>
 		<PackageTags>math;polynomial;newton;roots;numerics</PackageTags>
