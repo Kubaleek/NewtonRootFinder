@@ -6,7 +6,6 @@
 		<Nullable>enable</Nullable>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<NoWarn>1591</NoWarn>
-
 		<PackageId>NewtonRootFinder</PackageId>
 		<Version>1.0.0</Version>
 		<Authors>Kuba 'Kubaleek' Król</Authors>
@@ -17,4 +16,7 @@
 		<RepositoryUrl>https://github.com/Kubaleek/NewtonRootFinder</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
 </Project>
