@@ -1,5 +1,7 @@
 # NewtonRootFinder
 
+[![NuGet](https://img.shields.io/nuget/v/NewtonRootFinder.svg)](https://www.nuget.org/packages/NewtonRootFinder)
+
 Biblioteka C# do znajdowania wszystkich pierwiastków rzeczywistych wielomianów metodą Newtona z deflacją.
 
 
