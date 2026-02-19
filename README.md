@@ -49,6 +49,12 @@ Do obliczania wartości wielomianu i jego pochodnej używany jest schemat Horner
 | coefficients | double[] | Współczynniki wielomianu od najwyższej potęgi | wymagany |
 | epsilon | double | Dokładność przybliżenia | 1e-9 |
 
+## Znane ograniczenia
+
+- Punkty startowe są stałe w zakresie [-10, 10] pierwiastki spoza tego zakresu mogą nie zostać znalezione.
+- Obsługiwane są tylko pierwiastki rzeczywiste pierwiastki zespolone nie są wspierane.
+- Podwójne pierwiastki mogą być mniej dokładne numerycznie.
+
 ## Słownik pojęć
 
 **Metoda Newtona** - algorytm do znajdowania pierwiastków funkcji. Zaczyna od punktu startowego i iteracyjnie poprawia przybliżenie według wzoru `x = x - f(x) / f'(x)` aż wynik jest wystarczająco bliski zeru.
