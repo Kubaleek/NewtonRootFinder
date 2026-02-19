@@ -57,7 +57,7 @@
                         double candidate = NewtonMethod(current, start, epsilon);
 
                         if (Math.Abs(ValuePolynomial(current, candidate)) < epsilon &&
-                            !roots.Any(r => Math.Abs(r - candidate) < 1e-4))
+                            !roots.Any(root => Math.Abs(root - candidate) < 1e-4))
                         {
                             found = candidate;
                             break;
